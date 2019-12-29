@@ -6,7 +6,7 @@
 <meta name="description" content="Login - Screen">
 <meta name="author" content="Berenice Mendoza Sanlúcar">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<link rel="stylesheet" href="/gallery/public/css/styles.css">
+<link rel="stylesheet" href="/gallery/public/css/styles.css?version=1.0">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 

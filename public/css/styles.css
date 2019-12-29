@@ -97,7 +97,7 @@ input[type=email]:focus {
     top: 20%;
     margin: auto;
     width: 340px;
-    height: 440px;
+    height: 460px;
     border-radius: 0.35em;
     box-shadow: 0 3px 10px 0 rgba(34,47,91);
     text-align: center;
@@ -112,6 +112,51 @@ input[type=email]:focus {
     border: 0 none;
     cursor: pointer;
     border-radius: 3px;
+}
+
+#container-navbar {
+    background-color: #222f5b;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-right: 0em;
+    height: 50px;
+}
+
+#container-right {
+    margin-top: 10px;
+    float: right;
+}
+
+#container-left {
+    margin-top: 10px;
+    float: left;
+}
+
+#nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px 25px;
+    color: white;
+    font-weight: normal;
+}
+
+#nav-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#container-dashboard {
+    position: relative;
+    top: 30%;
+    margin: auto;
+    width: 440px;
+    height: 300px;
+    border-radius: 0.35em;
+    text-align: center;
 }
 
 .lock {
