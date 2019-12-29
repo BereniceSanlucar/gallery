@@ -50,7 +50,7 @@
                     } else {
                         $temp['password'] = password_hash($temp['password'], PASSWORD_DEFAULT);
                         if($this->userModel->saveUser($temp)) {
-                            redirect('users/login');
+                           redirect('/login');
                         } else {
                             die('Something went wrong');
                         }

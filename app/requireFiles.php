@@ -1,6 +1,6 @@
 <?php
-  require_once 'master/core.php';
-  require_once 'master/controller.php';
+  require_once 'master/Core.php';
+  require_once 'master/Controller.php';
   require_once 'config/config.php';
   require_once 'helpers/urlHelper.php';
 

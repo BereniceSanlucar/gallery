@@ -37,7 +37,8 @@
                     if(!($this->userModel->findUsername($temp['username']))) {
                         $this->data['usernameError'] = 'This username is not registered.';
                     } elseif($this->userModel->authenticateUser($temp['username'], $temp['password'])) {
-                        
+                        $this->createUserSession($temp);
+                        return;
                     } else {
                         $this->data['passwordError'] = 'Incorrect password.';
                     }
@@ -47,7 +48,9 @@
         }
 
         public function createUserSession($user) {
-            $_SESSION['username'] = $user->username;
+            $_SESSION['username'] = $user['username'];
+            $init = new Core();
+            $init->setController('DashboardController', 'welcome');
         }
 
         public function signup() {

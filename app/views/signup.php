@@ -6,7 +6,7 @@
     <meta name = "description" content = "Sign Up - screen">
     <meta name = "author" content = "Ignacio Esaú Nevarez Zúñiga">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel = "stylesheet" href = "/gallery/public/css/styles.css">
+    <link rel = "stylesheet" href = "/gallery/public/css/styles.css?version=1.0">
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
@@ -16,7 +16,6 @@
             <i class = "material-icons"><?php echo $data['lockIcon']?></i> 
             <?php echo $data['title']?>
         </div>
-
         <form action="<?php echo $data['signupAction']?>" method="POST">
             <div class = "input">
                 <div class = "input-addon">
